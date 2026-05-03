@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SmartOddsAI</title>
+<style>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+.container {
+  padding: 40px;
+}
+.btn {
+  background: gold;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>SmartOddsAI</h1>
+  <p>Smart football predictions. Daily winning tips. VIP access available.</p>
+
+  <h2>🔥 Today’s Free Tip</h2>
+  <p>Team A vs Team B - Over 1.5 Goals</p>
+
+  <a class="btn" href="#">Join VIP Now</a>
+</div>
+
+</body>
+</html>
