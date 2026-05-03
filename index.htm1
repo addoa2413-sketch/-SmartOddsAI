@@ -7,33 +7,64 @@ body {
   font-family: Arial;
   background: #0f172a;
   color: white;
+  margin: 0;
+}
+.header {
+  background: black;
+  padding: 20px;
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 .container {
-  padding: 40px;
+  padding: 20px;
+}
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 .btn {
   background: gold;
   color: black;
-  padding: 15px;
+  padding: 12px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
+}
+.vip {
+  background: red;
+  padding: 20px;
+  border-radius: 10px;
 }
 </style>
 </head>
 
 <body>
 
+<div class="header">SmartOddsAI</div>
+
 <div class="container">
-  <h1>SmartOddsAI</h1>
-  <p>Smart football predictions. Daily winning tips. VIP access available.</p>
 
-  <h2>🔥 Today’s Free Tip</h2>
-  <p>Team A vs Team B - Over 1.5 Goals</p>
+<div class="card">
+<h2>🔥 Today’s Free Tip</h2>
+<p>Team A vs Team B - Over 1.5 Goals</p>
+</div>
 
-  <a class="btn" href="#">Join VIP Now</a>
+<div class="vip">
+<h2>🔒 VIP Predictions</h2>
+<p>Unlock premium games with high odds.</p>
+<a class="btn" href">Join VIP</a>
+</div>
+
+<div class="card">
+<h2>📊 Winning Proof</h2>
+<p>✔ 10/12 Games Won Yesterday</p>
+<p>✔ Consistent Daily Wins</p>
+</div>
+
 </div>
 
 </body>
